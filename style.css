@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:wght@400;500;600&display=swap');
+*{
+padding: 0; 
+margin: 0; 
+text-decoration: none; 
+list-style: none; 
+box-sizing: border-box; 
+} 
+body { 
+font-family: 'Poppins', sans-serif; 
+
+
+}
+header { 
+    width: 100%; 
+    height: 30vh; 
+    background-image: url(Imagen2.jpg); 
+    background-repeat: no-repeat; 
+    background-position: right; 
+    background-size: cover; 
+    } 
+    nav { 
+    height: 100px; 
+    max-width: 1200px; 
+    margin: 0; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items:right; 
+    }
+    .logo { 
+        width: 30px; 
+        margin-left: 20px; 
+        } 
+        .bar-btn { 
+        font-size: 25px; 
+        color: #fff; 
+        margin-right: 20px; 
+        cursor: pointer; 
+        } 
+        .nav-menu {
+         
+        position: fixed; 
+        width: 100%; 
+        height: 0vh; 
+        top: 50px; 
+        background: rgba(101, 7, 7, 0.694); 
+        text-align: right; 
+        transition: all 0.5s;
+        }
+        .nav-menu li { 
+            display: none; 
+            line-height: 30px; 
+            margin: 50px 0; 
+            transition: all 0.5s; 
+            } 
+            .nav-menu li a { 
+            color: #fff; 
+            font-size: 16px; 
+            text-transform: uppercase; 
+            font-weight: 600; 
+            }
+            .nav-menu li a.active, 
+.nav-menu li a:hover { 
+color: #fffefe; 
+transition: 0.3s; 
+} 
+#check { 
+display: none; 
+} 
+#check:checked .nav-menu { 
+height: 100vh; 
+} 
+#check:checked .nav-menu li { 
+display: block; 
+}
+.banner-text { 
+    padding-top: 7px; 
+    text-align: center; 
+    } 
+    .banner-text h1 { 
+    color: #fff; 
+    font-size: 30px; 
+    text-transform: uppercase; 
+    } 
+    .banner-text p { 
+    color: #f7f5f5; 
+    font-size: 15px; 
+    padding: 20px;
+    }
+    .btn-a { 
+        display: inline-block; 
+        background-color: #2c0404ee; 
+        margin-top: 1px; 
+        padding: 15px 30px; 
+        color: #fff; 
+        text-transform: uppercase; 
+        border-radius: 25px; 
+        } 
+        .btn-a:hover { 
+        background-color: #5c0506df; 
+        }
+        @media (min-width: 760px) {
+    
+.logo { 
+margin-left: 0; 
+} 
+header { 
+height: 100vh; 
+} 
+
+nav { 
+height: 100px; 
+margin: 0 auto; 
+}
+        }
+        .bar-btn { 
+            display: none; 
+            } 
+            .nav-menu {
+            position: relative; 
+            height: 100px; 
+            top: 0; 
+            background: none; 
+            transition: none; 
+            text-align: center; 
+            margin-right: 50px; 
+        }
+            .nav-menu li { 
+            display: inline-block; 
+            line-height: 100px; 
+            margin: 0 20px; 
+            transition: none; 
+            }
+            nav-menu li a { 
+                font-size: 18px; 
+                } 
+                .container { 
+                max-width: 900px; 
+                margin: 0 auto; 
+                } 
+                .banner-text { 
+                padding-top: 100px; 
+                } 
+                .banner-text h1 { 
+                font-size: 50px; 
+                } 
+                .banner-text p{ 
+                padding: 30px 100px;
+                }
+            
